@@ -33,9 +33,10 @@ h1, h2 {
 	font-weight: 1500;
 }
 section {
-	margin-top: 1000px;
-	margin-bottom: 1000px;
+	margin-top: 20px;
+	margin-bottom: 20px;
 	width: 75%
+	border-width: 10px;
 }
 
 footer{
