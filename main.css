@@ -12,11 +12,9 @@ html {
 
 body {
 	color: white;
-	background-color: LightBlue;
+	
 	font-family: Verdana, Geneva, sans-serif;
 	padding: 4em 4em 4em;
-	margin: 5px 5px 5px 5px
-	max-height: 400px;
 }
 nav > ul {
 	line-height: 1em;
@@ -38,7 +36,9 @@ section {
 	margin-top: 20px;
 	margin-bottom: 5px 5px 5px 5px;
 	width: 75%
-	border-width: 175px;
+	border-width: 10px;
+	max-height:300px;
+	background-color: LightBlue;
 }
 
 footer{
