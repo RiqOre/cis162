@@ -6,10 +6,10 @@ html {
 
 body {
 	color: white;
-	background-color: rgb(135, 206, 250)
+	background-color: LightBlue;
+	font-family: Verdana, Geneva, sans-serif;
 }
 
 h1, h2 {
 	font-family: Verdana, Geneva, sans-serif;
-	letter-spacing: 0.2em;
 }
