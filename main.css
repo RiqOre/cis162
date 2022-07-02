@@ -3,7 +3,7 @@
 header{
 	background-color: Ivory;
 	color: black;
-	margin-bottom: 500px;
+	margin-bottom: 10px;
 }
 
 html {
@@ -28,9 +28,8 @@ ul > li {
 }
 
 h1, h2 {
-	font-size: 2.0em;
+	font-size: 2em;
 	font-family: Century Gothic, sans-serif;
-	font-weight: 1500;
 }
 section {
 	margin-top: 20px;
@@ -44,5 +43,5 @@ footer{
 	height:50%;
 	color: black;
 	font-size: 0.5em;
-	margin-top: 500px;
+	margin-top: 20px;
 }
