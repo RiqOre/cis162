@@ -29,6 +29,7 @@ ul > li {
 h1, h2 {
 	font-size: 2.0em;
 	font-family: Century Gothic, sans-serif;
+	font-weight: bold;
 }
 
 footer{
