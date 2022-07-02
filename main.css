@@ -15,7 +15,13 @@ body {
 	font-family: Verdana, Geneva, sans-serif;
 }
 nav > ul {
-	line-height: 3m;
+	line-height: 3em;
+	list-style-type: none;
+	padding-left: 10px;
+}
+
+ul > li {
+	line-height: 3em;
 	list-style-type: none;
 	padding-left: 10px;
 }
@@ -29,4 +35,5 @@ footer{
 	background-color: Ivory;
 	height:50%;
 	color: black;
+	font-size: 0.5em;
 }
