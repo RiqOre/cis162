@@ -3,7 +3,6 @@
 header{
 	background-color: Ivory;
 	color: black;
-	margin-bottom: 10px;
 }
 
 html {
@@ -29,21 +28,17 @@ ul > li {
 h1, h2 {
 	font-size: 2em;
 	font-family: Century Gothic, sans-serif;
+	font-weight: bold;
 }
 section {
-	margin-top: 20px;
-	margin-bottom: 5px 5px 5px 5px;
-	width: 75%
-	max-height:350px;
 	background-color: LightBlue;
-	padding: 6px 6px 6px 6px;
-	
+	margin: 10px 10px 10px 10px;
+	padding: 10px 10px 50px 10px;
 }
 
 footer{
-	background-color: Ivory;
 	height:50%;
 	color: black;
-	font-size: 0.5em;
-	margin-top: 20px;
+	font-size: 0.7em;
+	margin-top: 100px;
 }
