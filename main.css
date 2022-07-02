@@ -1,16 +1,16 @@
 @charset "utf-8";
 
 html {
-	background-color: hsl(50, 50%, 50%)
+	background-color: hsl(112, 50%, 66%);
 }
 
 body {
 	color: white;
 	background-color: hsl(200, 85%, 60%)
+	font-family: 'Trebuchet MS', Helvetica, sans-serif;
 }
 
 h1, h2 {
 	font-family: Verdana, Geneva, sans-serif;
-	letter-spacing: 0.5em;
+	letter-spacing: 0.2em;
 }
-
