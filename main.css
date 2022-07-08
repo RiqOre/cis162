@@ -19,12 +19,12 @@ nav > ul {
 	padding-left: 10px;
 }
 
-ul > li {
+ol > li {
 	line-height: 1em;
 	display: inline;
 	padding-left: 10px;
 }
-li
+
 
 h1, h2 {
 	font-size: 2em;
@@ -53,4 +53,12 @@ section#leftColumn {
 section#rightColumn {
 	float: left;
 	width: 33%;
+	
+}
+
+img {
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: auto;
+		margin-bottom: auto;
 }
