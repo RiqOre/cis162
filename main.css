@@ -28,10 +28,11 @@ nav > ol{
 	
 }
 
+
 ol > #firstList {
 	float: left;
 	display: block;
-	padding: 15px 294px 15px 294px ;
+	padding: 15px 292px 15px 292px ;
 }
 
 ol > #firstList {
@@ -41,14 +42,19 @@ ol > #firstList {
 	text-align: center;
 }
 
+li {
+	list-style-type: none;
+}
+
 section#leftColumn {
 	clear: left;
 	float: left;
+	display: block;
 	width: 50%
 }
 
 section#leftColumn{
-	padding: 0px 0px 0px 0px;
+	padding: 15px 0px 40px 8px;
 	border: 0px 0px 0px 0px;
 	margin: 0px 0px 0px -8px;
 }
@@ -62,7 +68,18 @@ background-color: aqua;
 section#rightColumn {
 	clear: left;
 	float: right;
+	display: block;
 	width: 50%
+}
+
+section#rightColumn{
+	padding: 0px 0px 0px 0px;
+	border: 0px 0px 0px 0px;
+	margin: -325px 0px 0px 0px;
+}
+
+section#rightColumn {
+	background-color: brown;
 }
 
 
@@ -72,8 +89,10 @@ section#rightColumn {
 
 
 
-
 img {
-	width: 100px;
+	width: 50%;
+	padding: 0px 0px 0px 0px;
+	border: 0px 0px 0px 0px;
+	margin-left: 25%;
 	
 }
