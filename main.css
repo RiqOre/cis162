@@ -21,9 +21,10 @@ nav > ul {
 
 ul > li {
 	line-height: 1em;
-	list-style-type: none;
+	display: inline;
 	padding-left: 10px;
 }
+li
 
 h1, h2 {
 	font-size: 2em;
@@ -41,4 +42,15 @@ footer{
 	color: black;
 	font-size: 0.7em;
 	margin-top: 100px;
+}
+
+section#leftColumn {
+	clear: left;
+	float: left;
+	width: 67%;
+}
+
+section#rightColumn {
+	float: left;
+	width: 33%;
 }
