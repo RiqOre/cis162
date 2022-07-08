@@ -16,14 +16,18 @@ body {
 nav > ul {
 	line-height: 1em;
 	list-style-type: none;
-	padding-left: 10px;
+	padding-left: 0px;
 }
 
 ol > li {
-	line-height: 1em;
-	display: inline;
-	padding-left: 10px;
+	
+	line-height: 2em;
+	float: left;
+	display: block;
+	padding: 20px;
+	background-color: hsl(16, 43%, 59%);
 }
+
 
 
 h1, h2 {
@@ -32,35 +36,39 @@ h1, h2 {
 	font-weight: bold;
 }
 
-
-footer{
-	height:50%;
-	color: black;
-	font-size: 0.7em;
-	margin-top: 100px;
-}
-
-section#leftColumn {
-	clear: left;
-	float: left;
-	width: 67%;
+header{
+	margin-left: 45%;
 }
 
 section#leftColumn {
 	background-color: LightBlue;
 	margin: 10px 10px 10px 10px;
-	padding: 10px 10px 50px 10px;
+  padding-bottom: 2%;
+}
+
+footer{
+	height:50%;
+	color: black;
+	font-size: 0.7em;
+	margin-top: 40%;
+}
+
+section#leftColumn {
+	clear: left;
+	float: left;
+	width: 64%;
 }
 
 section#rightColumn {
-	float: left;
+	float: right;
 	width: 33%;
-	
+	background-color: hsl(150, 43%, 59%);
 }
 
 img {
-		margin-left: auto;
-		margin-right: auto;
-		margin-top: auto;
-		margin-bottom: auto;
+	 width: 50%;
+		margin-left: 25%;
+		margin-right: 25;
+		margin-top: 10%;
+		margin-bottom: 10%;
 }
