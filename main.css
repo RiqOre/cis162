@@ -73,13 +73,18 @@ section#rightColumn {
 }
 
 section#rightColumn{
-	padding: 0px 0px 0px 0px;
+	padding: 30px 0px 30px 0px;
 	border: 0px 0px 0px 0px;
 	margin: -325px 0px 0px 0px;
 }
 
 section#rightColumn {
 	background-color: brown;
+}
+
+section#contactInfo {
+  float: left;
+	margin: 15% 0px 0px 0px
 }
 
 
