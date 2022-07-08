@@ -2,4 +2,78 @@
 
 html {
 	background-color: LightBlue;
+	font-family: Verdana, Geneva, sans-serif
+}
+
+header{
+	text-align: center;
+	font-size: 2em;
+}
+header {
+	margin: -43px -8px 0px -8px;
+}
+
+header{
+	background-color: darkblue;
+}
+
+body {
+width: 99.2%;
+}
+
+
+nav > ol{
+	margin: -43px -8px 0px -8px;
+	padding: 0px 0px 0px 0px;
+	
+}
+
+ol > #firstList {
+	float: left;
+	display: block;
+	padding: 15px 294px 15px 294px ;
+}
+
+ol > #firstList {
+  background-color: chartreuse;
+}
+#firstList {
+	text-align: center;
+}
+
+section#leftColumn {
+	clear: left;
+	float: left;
+	width: 50%
+}
+
+section#leftColumn{
+	padding: 0px 0px 0px 0px;
+	border: 0px 0px 0px 0px;
+	margin: 0px 0px 0px -8px;
+}
+
+section#leftColumn {
+background-color: aqua;
+}
+
+
+
+section#rightColumn {
+	clear: left;
+	float: right;
+	width: 50%
+}
+
+
+
+
+
+
+
+
+
+img {
+	width: 100px;
+	
 }
