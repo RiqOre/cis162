@@ -1,7 +1,7 @@
 @charset "utf-8";
 
 html {
-	background-color: LightBlue;
+	background-color: RoyalBlue;
 	font-family: Verdana, Geneva, sans-serif
 }
 
@@ -10,36 +10,37 @@ header{
 	font-size: 2em;
 }
 header {
-	margin: -43px -8px 0px -8px;
+padding: 0px 0px 0px 0px;
+margin: 0px 10% 0px 10%;
 }
 
 header{
-	background-color: darkblue;
+	background-color: Cornflowerblue;
 }
-
-body {
-width: 99.2%;
-}
-
 
 nav > ol{
-	margin: -43px -8px 0px -8px;
-	padding: 0px 0px 0px 0px;
-	
+padding: 0px 0px 0px 0px;
+margin: -2.25% 10% 1px 10%;
 }
 
-
 ol > #firstList {
-	float: left;
 	display: block;
-	padding: 15px 292px 15px 292px ;
 }
 
-ol > #firstList {
-  background-color: chartreuse;
-}
 #firstList {
 	text-align: center;
+}
+
+#firstList {
+	float: left;
+}
+#firstList {
+	padding: 0px 227px 0px 227px;
+	background-color: MidnightBlue;
+}
+
+a {
+  display: block;
 }
 
 li {
@@ -49,55 +50,43 @@ li {
 section#leftColumn {
 	clear: left;
 	float: left;
-	display: block;
-	width: 50%
+	width: 40%
 }
-
 section#leftColumn{
-	padding: 15px 0px 40px 8px;
-	border: 0px 0px 0px 0px;
-	margin: 0px 0px 0px -8px;
+  margin: 0px -10% 0px 10% ;
+	padding: 0px 0px 10% 0% ;
+	border: 0px 0px 0px 0px ;
 }
-
 section#leftColumn {
-background-color: aqua;
+background-color: LightSteelBlue;
+}
+section#leftColumn {
+	text-align: center;
+	text
 }
 
-
-
 section#rightColumn {
-	clear: left;
+	clear: right;
 	float: right;
-	display: block;
-	width: 50%
+	width: 40%;
 }
-
 section#rightColumn{
-	padding: 30px 0px 30px 0px;
-	border: 0px 0px 0px 0px;
-	margin: -325px 0px 0px 0px;
+  margin: 0px 10% 0px 10% ;
+	padding: 0px 0px 10% 0% ;
+	border: 0px 0px 0px 0px ;
 }
-
 section#rightColumn {
-	background-color: brown;
+	background-color: SteelBlue;
 }
 
 section#contactInfo {
-  float: left;
-	margin: 15% 0px 0px 0px
+	clear: left;
+	float: left;
+margin: 50% 0px 0px 0px;
 }
-
-
-
-
-
-
-
 
 img {
 	width: 50%;
-	padding: 0px 0px 0px 0px;
-	border: 0px 0px 0px 0px;
 	margin-left: 25%;
-	
+	margin-top: 5%
 }
