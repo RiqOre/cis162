@@ -10,8 +10,50 @@ body {
 	background-color: Beige;
 }
 
-div#outer {
-	display: grid;
-	grid-template-columns: 250px 100px;
+img {
+	
+  max-width: 50%;
+  height: auto;
 }
 
+div#outer {
+	display: grid;
+	grid-template-columns:90% 10%;
+	grid-template-rows: 500px 500px 500px 500px ;
+}
+
+div#item0 {
+	grid-row: 1;
+	grid-column: 2;
+}
+
+div#item1 {
+	grid-row: 1;
+	grid-column: 1;
+}
+
+div#item2 {
+	grid-row: 3;
+	grid-column: 1;
+}
+
+section#contactInfo {
+	grid-row 4;
+	grid-column: 1;
+}
+ol > li {
+	list-style-type: none;
+}
+
+li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: Ivory;
+}
